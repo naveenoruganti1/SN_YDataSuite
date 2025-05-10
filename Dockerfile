@@ -16,6 +16,4 @@ WORKDIR /datasuite/yaml
 # Copy jar file from build directory into new created directory
 COPY build/libs/SN_YDataSuite-1.0.jar .
 
-EXPOSE 8091
-
 CMD ["java", "-jar", "SN_YDataSuite-1.0.jar"]
